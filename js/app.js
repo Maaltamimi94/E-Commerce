@@ -400,7 +400,7 @@ async function updateNavForAuth() {
             });
     } else {
         navSlot.innerHTML =
-            '<a href="login.html">Login</a>';
+            '<a href="login.html">Login</a> <a href="register.html">Register</a>';
     }
 }
 //User logging out
